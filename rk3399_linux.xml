@@ -5,7 +5,7 @@
   
   <default remote="ldseraph" revision="master" sync-j="4"/>
 
-  <project name="device-custom" path="device/rockchip" revision="master">
+  <project remote="ldseraph" name="device-custom" path="device/rockchip" revision="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
