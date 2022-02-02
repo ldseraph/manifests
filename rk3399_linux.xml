@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/rockchip-linux/" name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
-  <remote fetch="." name="ldseraph" review="https://github.com/ldseraph/"/>
+  <remote fetch="https://github.com/rockchip-linux" name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
+  <remote fetch="https://github.com/ldseraph" name="ldseraph" review="https://github.com/ldseraph/"/>
   
   <default remote="rockchip-linux" revision="master" sync-j="4"/>
 
