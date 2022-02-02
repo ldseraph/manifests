@@ -5,15 +5,15 @@
   
   <default remote="ldseraph" revision="master" sync-j="4"/>
 
-  <project name="device-custom" path="device/rockchip" revision="master">
+  <!-- <project name="device-custom" path="device/rockchip" revision="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.target_product" src="rk3399"/>
-  </project>
+  </project> -->
 
   <project remote="rockchip-linux" name="docs" path="docs" revision="master"/>
-  <project remote="rockchip-linux" name="tools" path="tools" revision="master">
+  <!-- <project remote="rockchip-linux" name="tools" path="tools" revision="master">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3399-mkupdate.bat"/>
