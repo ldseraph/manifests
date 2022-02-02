@@ -12,17 +12,19 @@
     <linkfile dest="device/rockchip/.target_product" src="rk3399"/>
   </project>
 
-  <!-- <project name="docs" revision="master"/>
-  <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="master"/>
-  <project name="kernel" path="kernel" revision="develop-4.4"/>
-  <project name="rk-rootfs-build" path="debian" revision="master"/>
-  <project name="rkbin" path="rkbin" revision="master"/>
-  <project name="tools" path="tools" revision="master">
+  <project remote="rockchip-linux" name="docs" revision="master"/>
+  <project remote="rockchip-linux" name="tools" path="tools" revision="master">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3399-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
+
+  <!-- 
+  <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="master"/>
+  <project name="kernel" path="kernel" revision="develop-4.4"/>
+  <project name="rk-rootfs-build" path="debian" revision="master"/>
+  <project name="rkbin" path="rkbin" revision="master"/>
   <project name="u-boot" path="u-boot" revision="next-dev"/> -->
 </manifest>
