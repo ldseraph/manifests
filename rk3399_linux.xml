@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
+  <remote fetch="." name="rockchip-linux" review="https://github.com/ldseraph/"/>
 
   <default remote="rockchip-linux" revision="master" sync-j="4"/>
 
-  <include name="yocto.xml" />
-
-  <project name="rockx" path="external/rockx" revision="master"/>
+  <!-- <project name="rockx" path="external/rockx" revision="master"/>
   <project name="rkmedia" path="external/rkmedia" revision="master"/>
   <project name="wifiAutoSetup" path="external/wifiAutoSetup" revision="master"/>
   <project name="update_engine" path="external/update_engine" revision="master"/>
@@ -72,5 +70,5 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project name="u-boot" path="u-boot" revision="next-dev"/>
-  <project name="uvc_app" path="external/uvc_app" revision="master"/>
+  <project name="uvc_app" path="external/uvc_app" revision="master"/> -->
 </manifest>
