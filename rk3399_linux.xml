@@ -12,14 +12,14 @@
     <linkfile dest="device/rockchip/.target_product" src="rk3399"/>
   </project>
 
-  <!-- <project remote="github" name="rockchip-linux/docs.git" path="docs" revision="master"/>
-  <project remote="github" name="rockchip-linux/tools.git" path="tools" revision="master">
+  <project remote="github" name="rockchip-linux/docs" path="docs" revision="master"/>
+  <project remote="github" name="rockchip-linux/tools" path="tools" revision="master">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3399-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
-  </project> -->
+  </project>
 
   <!-- 
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="master"/>
