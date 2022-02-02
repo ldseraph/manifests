@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- <remote fetch="https://github.com/" name="github" revision="master" review=""/> -->
+  <remote fetch="https://github.com/" name="github" revision="master" review=""/>
   <remote fetch="." name="ldseraph" revision="master" review="https://github.com/ldseraph/"/>
   
   <default remote="ldseraph" revision="master" sync-j="4"/>
