@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/rockchip-linux/" name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
-
+  <remote fetch="https://github.com/ldseraph/" name="ldseraph" review="https://github.com/ldseraph/"/>
+  
   <default remote="rockchip-linux" revision="master" sync-j="4"/>
 
-  <project remote="rockchip-linux" name="device-custom" path="device/rockchip" revision="master">
+  <project remote="ldseraph" name="device-custom" path="device/rockchip" revision="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
